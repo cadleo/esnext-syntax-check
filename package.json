@@ -1,0 +1,25 @@
+{
+  "name": "esnext-syntax-check",
+  "version": "0.0.0",
+  "description": "A tool for checking esnext syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadleo/esnext-syntax-check.git"
+  },
+  "keywords": [],
+  "author": "cadleo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cadleo/esnext-syntax-check/issues"
+  },
+  "homepage": "https://github.com/cadleo/esnext-syntax-check#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.5"
+  }
+}
